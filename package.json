@@ -1,0 +1,30 @@
+{
+  "name": "schoolish-backend",
+  "version": "1.0.0",
+  "description": "e-learning platform",
+  "main": "app.js",
+  "scripts": {
+    "dev": "NODE_ENV=development nodemon --exec babel-node src/app.js"
+  },
+  "author": "TonyStacks",
+  "license": "MIT",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "bcrypt": "^3.0.4",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "helmet": "^3.15.1",
+    "jsonwebtoken": "^8.5.0",
+    "moment": "^2.24.0",
+    "mongoosastic": "^4.4.1",
+    "mongoose": "^5.4.16",
+    "morgan": "^1.9.1",
+    "request-country": "^0.1.4",
+    "simple-encryptor": "^2.0.0"
+  }
+}
